@@ -1,0 +1,16 @@
+$mobile-pad: 2rem;
+$flex: flex;
+$row: row;
+$col: column;
+
+@mixin desktop-flex {
+    padding: $mobile-pad;
+    display: $flex;
+    flex-direction: $row;
+}
+
+@mixin mobile-flex {
+    padding: $mobile-pad;
+    display: $flex;
+    flex-direction: $col;
+}

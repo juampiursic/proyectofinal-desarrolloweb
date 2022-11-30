@@ -1,4 +1,6 @@
 @import "./breakpoints";
+@import "./header";
+@import "./layout";
 
 /** Body **/
 body {
@@ -22,4 +24,15 @@ body {
     font-family: "Poppins", sans-serif;
     color: #0C9090;
     font-weight: 900;
+}
+
+/* Extra small devices (phones, 320px and down) */
+@include lt-xxs {
+
+    .hero {
+        @include mobile-flex;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
 }

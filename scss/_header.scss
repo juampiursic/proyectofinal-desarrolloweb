@@ -1,0 +1,52 @@
+/** Navbar **/
+
+@mixin desktop-navbar {
+
+    .navbar {
+        padding: 4rem;
+
+    }
+
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    .navbar a.nav-link {
+        font-family: $poppins;
+        color: $secondary;
+    }
+
+    .navbar a.nav-link.active {
+        font-family: $poppins;
+        color: $primary;
+        font-weight: $black;
+    }
+}
+
+@mixin mobile-navbar {
+
+    .navbar {
+        padding: 2rem;
+
+    }
+
+
+    .navbar-toggler {
+        border: 0;
+    }
+
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    .navbar a.nav-link {
+        font-family: "Poppins", sans-serif;
+        color: $secondary;
+    }
+
+    .navbar a.nav-link.active {
+        font-family: $poppins;
+        color: $primary;
+        font-weight: $black;
+    }
+}
