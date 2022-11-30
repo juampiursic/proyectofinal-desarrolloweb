@@ -1,0 +1,44 @@
+// media aliases and breakpoints
+$screen-xxs-max: 320px;
+$screen-xs-max: 600px;
+$screen-sm-max: 768px;
+$screen-md-max: 960px;
+$screen-lg-max: 1280px;
+$screen-xl-max: 1920px;
+
+// media lt queries
+@mixin lt-xxs {
+    @media screen and (max-width: #{$screen-xxs-max}) {
+        @content;
+    }
+}
+
+@mixin lt-xs {
+    @media screen and (max-width: #{$screen-xs-max}) {
+        @content;
+    }
+}
+
+@mixin lt-sm {
+    @media screen and (max-width: #{$screen-sm-max}) {
+        @content;
+    }
+}
+
+@mixin lt-md {
+    @media screen and (max-width: #{$screen-md-max}) {
+        @content;
+    }
+}
+
+@mixin lt-lg {
+    @media screen and (max-width: #{$screen-lg-max}) {
+        @content;
+    }
+}
+
+@mixin lt-xl {
+    @media screen and (max-width: #{$screen-xl-max}) {
+        @content;
+    }
+}
