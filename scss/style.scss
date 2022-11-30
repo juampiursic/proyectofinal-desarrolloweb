@@ -1,0 +1,23 @@
+/** Body **/
+body {
+    background-color: #333448;
+}
+
+.navbar {
+    padding: 4rem;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.navbar a.nav-link {
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+}
+
+.navbar a.nav-link.active {
+    font-family: "Poppins", sans-serif;
+    color: #0C9090;
+    font-weight: 900;
+}
