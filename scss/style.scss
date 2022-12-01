@@ -29,6 +29,205 @@ body {
     font-weight: 900;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@include lt-xs {
+    @include mobile-navbar;
+
+    /* <--- Home ---> */
+
+    .hero {
+        @include mobile-flex;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+
+        .hero-text h1 {
+            @include h1-m;
+            color: $secondary;
+            padding-right: 3rem;
+            padding-bottom: 2rem;
+            width: 100%;
+        }
+
+        .hero-text p {
+            @include p-m;
+            color: $secondary;
+            padding-bottom: 2rem;
+            width: 90%;
+        }
+
+        .hero-text button {
+            @include button-sm;
+            font-family: $poppins;
+            font-weight: $black;
+            margin-bottom: 2rem;
+
+            &:hover {
+                @include button-hover-sm;
+                font-family: $poppins;
+                font-weight: $black;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    .hero-img #gow {
+        margin-left: -50%;
+        width: 200%;
+    }
+
+    /* <--- Tendencia ---> */
+
+    .trending {
+        @include mobile-flex;
+        width: 100%;
+        height: 100%;
+
+        .trending-text h1 {
+            @include h1-m;
+            color: $secondary;
+            padding-bottom: 2rem;
+        }
+
+        .trending-text p {
+            @include p-m;
+            color: $secondary;
+            padding-bottom: 2rem;
+        }
+    }
+
+    .carousel-games {
+        display: none;
+    }
+
+    .features {
+        @include mobile-flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+
+        .features-text h1 {
+            @include h1-m;
+            color: $secondary;
+            padding-bottom: 2rem;
+            width: 100%;
+        }
+    }
+
+    .features-icon {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 4rem;
+        text-align: center;
+        padding: 2rem;
+
+        .feature-real img {
+            width: 50%;
+        }
+
+        .feature-real h2 {
+            @include h2-s;
+            color: $secondary;
+            padding-top: 2rem;
+            text-align: center;
+        }
+
+        .feature-real p {
+            @include p-m;
+            color: $secondary;
+            padding-top: 2rem;
+            text-align: center;
+        }
+    }
+
+    /* <--- Conexiones ---> */
+
+    .connect {
+        @include mobile-flex;
+        width: 100%;
+        height: 100%;
+
+        .connect-text h1 {
+            @include h1-m;
+            color: $secondary;
+            padding-bottom: 2rem;
+        }
+
+        .connect-text p {
+            @include p-m;
+            color: $secondary;
+            padding-bottom: 2rem;
+        }
+    }
+
+    .connect-platforms {
+        display: none;
+    }
+
+    .connect-img img {
+        width: 100%;
+        padding: 4rem;
+    }
+
+    /* <--- Contacto ---> */
+
+    .form {
+        @include mobile-flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+
+        .form-container {
+            width: 100%;
+            padding: 0rem;
+        }
+
+        .form-text {
+            display: none;
+        }
+
+        legend {
+            @include h1-m;
+            color: $secondary;
+            padding: 0 1rem 4rem 1rem;
+        }
+
+        label {
+            font-size: 1rem;
+            font-weight: $black;
+            color: $secondary;
+            width: 100%;
+        }
+
+        input {
+            border-radius: 10px;
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 2rem;
+        }
+
+        select {
+            border-radius: 10px;
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 2rem;
+        }
+
+        textarea {
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        #tryBeta {
+            @include button-hover-sm;
+            font-weight: $black;
+            border-radius: 10px;
+        }
+    }
+}
+
+
 /* Extra small devices (phones, 320px and down) */
 @include lt-xxs {
     @include small-navbar;
