@@ -1,0 +1,49 @@
+$radius: 100px;
+$padding-sm: 0.8rem 1.6rem 0.8rem 1.6rem;
+$padding-xs: 0.5rem 1rem 0.5rem 1rem;
+$size-sm: 1rem;
+$size-xs: 0.6rem;
+$none: none;
+$primary: #0C9090;
+
+@mixin button-sm{
+    border-radius: $radius;
+    padding: $padding-sm;
+    font-size: $size-sm;
+    border-style: $none;
+    background-color: transparent;
+    border: solid 2px whitesmoke;
+    color: whitesmoke;
+}
+
+@mixin button-hover-sm{
+    border-radius: $radius;
+    padding: $padding-sm;
+    font-size: $size-sm;
+    border-style: $none;
+    background-color: $primary;
+    border: solid 2px $primary;
+    color: whitesmoke;
+}
+
+@mixin button-xs{
+    border-radius: $radius;
+    padding: $padding-xs;
+    font-size: $size-xs;
+    border-style: $none;
+    background-color: transparent;
+    border: solid 2px whitesmoke;
+    color: whitesmoke;
+
+}
+
+@mixin button-hover-xs{
+    border-radius: $radius;
+    padding: $padding-xs;
+    font-size: $size-xs;
+    border-style: $none;
+    background-color: $primary;
+    border: solid 2px $primary;
+    color: whitesmoke;
+
+}

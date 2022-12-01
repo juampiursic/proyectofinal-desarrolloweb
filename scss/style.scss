@@ -1,6 +1,10 @@
 @import "./breakpoints";
 @import "./header";
 @import "./layout";
+@import "./tipografia";
+@import "./color";
+@import "./button";
+
 
 /** Body **/
 body {
@@ -28,11 +32,73 @@ body {
 
 /* Extra small devices (phones, 320px and down) */
 @include lt-xxs {
+    @include small-navbar;
+
+
+    /* <--- Home ---> */
 
     .hero {
         @include mobile-flex;
         width: 100%;
         height: 100%;
         overflow: hidden;
+
+        .hero-text h1 {
+            @include h1-s;
+            color: $secondary;
+            padding-right: 3rem;
+            padding-bottom: 2rem;
+            width: 100%;
+        }
+
+        .hero-text p {
+            @include p-m;
+            color: $secondary;
+            padding-bottom: 2rem;
+            width: 90%;
+        }
+
+        .hero-text button {
+            @include button-sm;
+            font-family: $poppins;
+            font-weight: $black;
+            margin-bottom: 2rem;
+
+            &:hover {
+                @include button-hover-sm;
+                font-family: $poppins;
+                font-weight: $black;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .hero-img #gow {
+        margin-left: -50%;
+        width: 200%;
+    }
+
+    /* <--- Tendencia ---> */
+
+    .trending {
+        @include mobile-flex;
+        width: 100%;
+        height: 100%;
+
+        .trending-text h1 {
+            @include h1-s;
+            color: $secondary;
+            padding-bottom: 2rem;
+        }
+
+        .trending-text p {
+            @include p-m;
+            color: $secondary;
+            padding-bottom: 2rem;
+        }
     }
 }

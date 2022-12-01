@@ -50,3 +50,31 @@
         font-weight: $black;
     }
 }
+
+@mixin small-navbar {
+
+    .navbar {
+        padding: 1rem;
+
+    }
+
+
+    .navbar-toggler {
+        border: 0;
+    }
+
+    .navbar-brand img {
+        width: 100px;
+    }
+
+    .navbar a.nav-link {
+        font-family: "Poppins", sans-serif;
+        color: $secondary;
+    }
+
+    .navbar a.nav-link.active {
+        font-family: $poppins;
+        color: $primary;
+        font-weight: $black;
+    }
+}

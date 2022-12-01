@@ -1,3 +1,10 @@
+@charset "UTF-8";
+/** Navbar **/ /* Tipografías */
+/* Tamaños */
+/* H1 */
+/* p */
+/* Background Color */
+/* Main Colors */
 /** Body **/
 body {
   background-color: #333448;
@@ -20,6 +27,107 @@ body {
   font-family: "Poppins", sans-serif;
   color: #0C9090;
   font-weight: 900;
+}
+
+/* Extra small devices (phones, 320px and down) */
+@media screen and (max-width: 320px) {
+  .navbar {
+    padding: 1rem;
+  }
+  .navbar-toggler {
+    border: 0;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+  .navbar a.nav-link {
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+  }
+  .navbar a.nav-link.active {
+    font-family: "Poppins", sans-serif;
+    color: #0C9090;
+    font-weight: 900;
+  }
+  /* <--- Home ---> */
+  .hero {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .hero .hero-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: whitesmoke;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    width: 100%;
+  }
+  .hero .hero-text p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+    width: 90%;
+  }
+  .hero .hero-text button {
+    border-radius: 100px;
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    font-size: 1rem;
+    border-style: none;
+    background-color: transparent;
+    border: solid 2px whitesmoke;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    margin-bottom: 2rem;
+  }
+  .hero .hero-text button:hover {
+    border-radius: 100px;
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    font-size: 1rem;
+    border-style: none;
+    background-color: #0C9090;
+    border: solid 2px #0C9090;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    margin-bottom: 2rem;
+  }
+  .hero-img {
+    width: 100%;
+  }
+  .hero-img #gow {
+    margin-left: -50%;
+    width: 200%;
+  }
+  /* <--- Tendencia ---> */
+  .trending {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .trending .trending-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+  }
+  .trending .trending-text p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
