@@ -4,11 +4,20 @@ $black: 900;
 $regular: 400;
 
 /* Tamaños */
+/* H1 */
 $h1-xxl: 7rem;
 $h1-xl: 5rem;
 $h1-l: 4rem;
 $h1-m: 3rem;
 $h1-s: 2rem;
+
+/* H2 */
+$h2-xxl: 5rem;
+$h2-xl: 4rem;
+$h2-l: 3rem;
+$h2-m: 2rem;
+$h2-s: 1rem;
+/* p */
 $p-xl: 1.4rem;
 $p-l: 1.2rem;
 $p-m: 1rem;
@@ -40,6 +49,39 @@ $p-m: 1rem;
 }
 
 @mixin h1-s {
+    font-family: $poppins;
+    font-weight: $black;
+    font-size: $h1-s;
+}
+
+
+/* H2 */
+
+@mixin h2-xxl {
+    font-family: $poppins;
+    font-weight: $black;
+    font-size: $h1-xxl;
+}
+
+@mixin h2-xl {
+    font-family: $poppins;
+    font-weight: $black;
+    font-size: $h1-xl;
+}
+
+@mixin h2-l {
+    font-family: $poppins;
+    font-weight: $black;
+    font-size: $h1-l;
+}
+
+@mixin h2-m {
+    font-family: $poppins;
+    font-weight: $black;
+    font-size: $h1-m;
+}
+
+@mixin h2-s {
     font-family: $poppins;
     font-weight: $black;
     font-size: $h1-s;
