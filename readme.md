@@ -2,6 +2,8 @@
 
 > Este proyecto pertenece al curso de Desarrollo Web de la plataforma Coderhouse. Actualmente en desarrollo, The Gamer Club es un proyecto ficticio, un servicio que le permitiría al gamer, organizar su backlog, seguir estadísticas de sus juegos y sincronizar con todas las plataformas y tiendas más populares. 
 
+Deployed web en: https://exquisite-quokka-6c18e2.netlify.app/index.html
+
 ## Realizado con
 
 ### Tecnologías
