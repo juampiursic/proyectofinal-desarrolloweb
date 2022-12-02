@@ -789,6 +789,10 @@ body {
         }
     }
 
+    #carouselExampleIndicators {
+        display: inline;
+    }
+
     .main-game__img {
         width: 100%;
     }
@@ -865,9 +869,11 @@ body {
     }
 
     .connect-img img {
+        display: inline;
         width: 100%;
-        padding: 4rem 16rem 4rem 16rem;
+        padding: 12rem;
     }
+
 
     /* <--- Contacto ---> */
 
@@ -993,6 +999,10 @@ body {
         }
     }
 
+    #carouselExampleIndicators {
+        display: inline;
+    }
+
     .main-game__img {
         width: 100%;
     }
@@ -1069,8 +1079,9 @@ body {
     }
 
     .connect-img img {
+        display: inline;
         width: 100%;
-        padding: 6rem;
+        padding: 8rem;
     }
 
     /* <--- Contacto ---> */
@@ -1270,6 +1281,7 @@ body {
     }
 
     .connect-img img {
+        display: inline;
         width: 100%;
         padding: 4rem;
     }
@@ -1403,6 +1415,10 @@ body {
         }
     }
 
+    #carouselExampleIndicators {
+        display: contents;
+    }
+
     .main-game__img {
         width: 100%;
     }
@@ -1410,6 +1426,7 @@ body {
     .carousel-games {
         display: none;
     }
+    
 
     /* <--- Funciones ---> */
 
@@ -1479,6 +1496,7 @@ body {
     }
 
     .connect-img img {
+        display: inline;
         width: 100%;
         padding: 1rem;
     }
