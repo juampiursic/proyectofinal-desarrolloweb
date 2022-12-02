@@ -29,7 +29,7 @@ body {
     font-weight: 900;
 }
 
-/* Large sized devices (tablets, notebook, 1280px and down) */
+/* Large sized devices (notebooks, desktops, 1920px and down) */
 @include lt-xl {
     @include desktop-navbar;
 

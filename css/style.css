@@ -33,7 +33,7 @@ body {
   font-weight: 900;
 }
 
-/* Large sized devices (tablets, notebook, 1280px and down) */
+/* Large sized devices (notebooks, desktops, 1920px and down) */
 @media screen and (max-width: 1920px) {
   .navbar {
     padding: 4rem;
