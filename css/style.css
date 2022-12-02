@@ -33,7 +33,623 @@ body {
   font-weight: 900;
 }
 
-/* Extra small devices (phones, 600px and down) */
+/* Large sized devices (tablets, notebook, 1280px and down) */
+@media screen and (max-width: 1280px) {
+  .navbar {
+    padding: 4rem;
+  }
+  .navbar-brand img {
+    width: 150px;
+  }
+  .navbar a.nav-link {
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+  }
+  .navbar a.nav-link.active {
+    font-family: "Poppins", sans-serif;
+    color: #0C9090;
+    font-weight: 900;
+  }
+  /* <--- Home ---> */
+  .hero {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .hero .hero-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    color: whitesmoke;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    width: 100%;
+  }
+  .hero .hero-text p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+    width: 90%;
+  }
+  .hero .hero-text button {
+    border-radius: 100px;
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    font-size: 1rem;
+    border-style: none;
+    background-color: transparent;
+    border: solid 2px whitesmoke;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    margin-bottom: 2rem;
+  }
+  .hero .hero-text button:hover {
+    border-radius: 100px;
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    font-size: 1rem;
+    border-style: none;
+    background-color: #0C9090;
+    border: solid 2px #0C9090;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    margin-bottom: 2rem;
+  }
+  .hero-img #gow {
+    margin-left: -50%;
+    width: 200%;
+  }
+  /* <--- Tendencia ---> */
+  .trending {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  .trending .trending-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+  }
+  .trending .trending-text p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+  }
+  #carouselExampleIndicators {
+    display: none;
+  }
+  .carousel-games {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+  }
+  .carousel-games img {
+    width: 20%;
+  }
+  /* <--- Funciones ---> */
+  .features {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+  .features .features-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    color: whitesmoke;
+    padding-left: 4rem;
+    padding-bottom: 6rem;
+    width: 80%;
+  }
+  .features-icon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+  .features-icon h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: whitesmoke;
+    padding-top: 2rem;
+    text-align: center;
+  }
+  .features-icon p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: whitesmoke;
+    padding: 0 2rem 0 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+}
+/* Medium sized devices (tablets, 960px and down) */
+@media screen and (max-width: 960px) {
+  .navbar {
+    padding: 2rem;
+  }
+  .navbar-toggler {
+    border: 0;
+  }
+  .navbar-brand img {
+    width: 150px;
+  }
+  .navbar a.nav-link {
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+  }
+  .navbar a.nav-link.active {
+    font-family: "Poppins", sans-serif;
+    color: #0C9090;
+    font-weight: 900;
+  }
+  /* <--- Home ---> */
+  .hero {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .hero .hero-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    color: whitesmoke;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    width: 100%;
+  }
+  .hero .hero-text p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+    width: 90%;
+  }
+  .hero .hero-text button {
+    border-radius: 100px;
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    font-size: 1rem;
+    border-style: none;
+    background-color: transparent;
+    border: solid 2px whitesmoke;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    margin-bottom: 2rem;
+  }
+  .hero .hero-text button:hover {
+    border-radius: 100px;
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    font-size: 1rem;
+    border-style: none;
+    background-color: #0C9090;
+    border: solid 2px #0C9090;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    margin-bottom: 2rem;
+  }
+  .hero-img #gow {
+    margin-left: -50%;
+    width: 200%;
+  }
+  /* <--- Tendencia ---> */
+  .trending {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .trending .trending-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+  }
+  .trending .trending-text p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+  }
+  .main-game__img {
+    width: 100%;
+  }
+  .carousel-games {
+    display: none;
+  }
+  /* <--- Funciones ---> */
+  .features {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+  .features .features-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+    width: 100%;
+  }
+  .features-icon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4rem;
+    text-align: center;
+    padding: 2rem;
+  }
+  .features-icon .feature-real img {
+    width: 50%;
+  }
+  .features-icon .feature-real h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: whitesmoke;
+    padding-top: 2rem;
+    text-align: center;
+  }
+  .features-icon .feature-real p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    padding-top: 2rem;
+    text-align: center;
+  }
+  /* <--- Conexiones ---> */
+  .connect {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .connect .connect-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+  }
+  .connect .connect-text p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+  }
+  .connect-platforms {
+    display: none;
+  }
+  .connect-img img {
+    width: 100%;
+    padding: 4rem 16rem 4rem 16rem;
+  }
+  /* <--- Contacto ---> */
+  .form {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+  .form .form-container {
+    width: 100%;
+    padding: 0rem;
+  }
+  .form .form-text {
+    display: none;
+  }
+  .form legend {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    color: whitesmoke;
+    padding: 0 1rem 4rem 1rem;
+  }
+  .form label {
+    font-size: 1rem;
+    font-weight: 900;
+    color: whitesmoke;
+    width: 100%;
+  }
+  .form input {
+    border-radius: 10px;
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 2rem;
+  }
+  .form select {
+    border-radius: 10px;
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 2rem;
+  }
+  .form textarea {
+    border-radius: 10px;
+    width: 100%;
+  }
+  .form #tryBeta {
+    border-radius: 100px;
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    font-size: 1rem;
+    border-style: none;
+    background-color: #0C9090;
+    border: solid 2px #0C9090;
+    color: whitesmoke;
+    font-weight: 900;
+    border-radius: 10px;
+  }
+}
+/* Medium sized devices (phones, tablets, 768px and down) */
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 2rem;
+  }
+  .navbar-toggler {
+    border: 0;
+  }
+  .navbar-brand img {
+    width: 150px;
+  }
+  .navbar a.nav-link {
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+  }
+  .navbar a.nav-link.active {
+    font-family: "Poppins", sans-serif;
+    color: #0C9090;
+    font-weight: 900;
+  }
+  /* <--- Home ---> */
+  .hero {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .hero .hero-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: whitesmoke;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    width: 100%;
+  }
+  .hero .hero-text p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+    width: 90%;
+  }
+  .hero .hero-text button {
+    border-radius: 100px;
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    font-size: 1rem;
+    border-style: none;
+    background-color: transparent;
+    border: solid 2px whitesmoke;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    margin-bottom: 2rem;
+  }
+  .hero .hero-text button:hover {
+    border-radius: 100px;
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    font-size: 1rem;
+    border-style: none;
+    background-color: #0C9090;
+    border: solid 2px #0C9090;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    margin-bottom: 2rem;
+  }
+  .hero-img #gow {
+    margin-left: -50%;
+    width: 200%;
+  }
+  /* <--- Tendencia ---> */
+  .trending {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .trending .trending-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+  }
+  .trending .trending-text p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+  }
+  .main-game__img {
+    width: 100%;
+  }
+  .carousel-games {
+    display: none;
+  }
+  /* <--- Funciones ---> */
+  .features {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+  .features .features-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+    width: 100%;
+  }
+  .features-icon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4rem;
+    text-align: center;
+    padding: 2rem;
+  }
+  .features-icon .feature-real img {
+    width: 50%;
+  }
+  .features-icon .feature-real h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: whitesmoke;
+    padding-top: 2rem;
+    text-align: center;
+  }
+  .features-icon .feature-real p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: whitesmoke;
+    padding-top: 2rem;
+    text-align: center;
+  }
+  /* <--- Conexiones ---> */
+  .connect {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .connect .connect-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+  }
+  .connect .connect-text p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+  }
+  .connect-platforms {
+    display: none;
+  }
+  .connect-img img {
+    width: 100%;
+    padding: 6rem;
+  }
+  /* <--- Contacto ---> */
+  .form {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+  .form .form-container {
+    width: 100%;
+    padding: 0rem;
+  }
+  .form .form-text {
+    display: none;
+  }
+  .form legend {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: whitesmoke;
+    padding: 0 1rem 4rem 1rem;
+  }
+  .form label {
+    font-size: 1rem;
+    font-weight: 900;
+    color: whitesmoke;
+    width: 100%;
+  }
+  .form input {
+    border-radius: 10px;
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 2rem;
+  }
+  .form select {
+    border-radius: 10px;
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 2rem;
+  }
+  .form textarea {
+    border-radius: 10px;
+    width: 100%;
+  }
+  .form #tryBeta {
+    border-radius: 100px;
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    font-size: 1rem;
+    border-style: none;
+    background-color: #0C9090;
+    border: solid 2px #0C9090;
+    color: whitesmoke;
+    font-weight: 900;
+    border-radius: 10px;
+  }
+}
+/* Small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
   .navbar {
     padding: 2rem;
@@ -132,6 +748,7 @@ body {
   .carousel-games {
     display: none;
   }
+  /* <--- Funciones ---> */
   .features {
     padding: 2rem;
     display: flex;
