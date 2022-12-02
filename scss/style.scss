@@ -30,6 +30,240 @@ body {
 }
 
 /* Large sized devices (tablets, notebook, 1280px and down) */
+@include lt-xl {
+    @include desktop-navbar;
+
+    /* <--- Home ---> */
+
+    .hero {
+        @include desktop-flex;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+
+        .hero-text h1 {
+            @include h1-l;
+            color: $secondary;
+            padding-right: 3rem;
+            padding-bottom: 2rem;
+            width: 100%;
+        }
+
+        .hero-text p {
+            @include p-l;
+            color: $secondary;
+            padding-bottom: 2rem;
+            width: 90%;
+        }
+
+        .hero-text button {
+            @include button-sm;
+            font-family: $poppins;
+            font-weight: $black;
+            margin-bottom: 2rem;
+
+            &:hover {
+                @include button-hover-sm;
+                font-family: $poppins;
+                font-weight: $black;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    .hero-img #gow {
+        margin-left: -50%;
+        width: 200%;
+    }
+
+    /* <--- Tendencia ---> */
+
+    .trending {
+        @include desktop-flex;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+
+        .trending-text h1 {
+            @include h1-l;
+            color: $secondary;
+            padding-bottom: 2rem;
+        }
+
+        .trending-text p {
+            @include p-l;
+            color: $secondary;
+            padding-bottom: 2rem;
+            width: 60%;
+        }
+    }
+
+    #carouselExampleIndicators {
+        display: none;
+    }
+
+    .carousel-games {
+        @include desktop-flex;
+        gap: 2rem;
+        width: 100%;
+    }
+
+    .carousel-games img {
+        width: 20%;
+    }
+
+    /* <--- Funciones ---> */
+
+    .features {
+        @include desktop-flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+
+        .features-text h1 {
+            @include h1-l;
+            color: $secondary;
+            padding-left: 4rem;
+            padding-bottom: 6rem;
+            width: 80%;
+        }
+    }
+
+    .features-icon {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .features-icon h2 {
+        @include h2-s;
+        color: $secondary;
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+    .features-icon p {
+        @include p-m;
+        color: $secondary;
+        padding: 0 2rem 0 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    /* <--- Conexiones ---> */
+
+    .connect {
+        @include desktop-flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+
+        .connect-text h1 {
+            @include h1-l;
+            color: $secondary;
+            padding-bottom: 2rem;
+            width: 100%;
+        }
+
+        .connect-text p {
+            @include p-l;
+            color: $secondary;
+            padding-bottom: 2rem;
+            width: 70%;
+        }
+    }
+
+    .connect-platforms {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        gap: 6rem;
+        padding-top: 6rem;
+    }
+
+    .connect-img img {
+        display: none;
+        width: 100%;
+        padding: 8rem;
+    }
+
+    /* <--- Contacto ---> */
+
+    .form {
+        @include desktop-flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+
+        .form-text {
+            text-align: center;
+            width: 100%;
+        }
+
+        .form-text h1 {
+            @include h1-m;
+            color: $secondary;
+            width: 100%;
+            padding: 6rem;
+            text-align: center;
+        }
+
+        .form-text img {
+            width: 30%;
+        }
+
+        .form-container {
+            width: 100%;
+            padding: 1rem;
+        }
+
+        legend {
+            @include h1-m;
+            color: $secondary;
+            padding: 0 1rem 4rem 1rem;
+        }
+
+        label {
+            font-size: 1rem;
+            font-weight: $black;
+            color: $secondary;
+            width: 100%;
+        }
+
+        input {
+            border-radius: 10px;
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 2rem;
+        }
+
+        select {
+            border-radius: 10px;
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 2rem;
+        }
+
+        textarea {
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        #tryBeta {
+            @include button-hover-sm;
+            font-weight: $black;
+            border-radius: 10px;
+        }
+    }
+}
+
+
+/* Large sized devices (tablets, notebook, 1280px and down) */
 @include lt-lg {
     @include desktop-navbar;
 
@@ -153,7 +387,110 @@ body {
         text-align: center;
     }
 
-    
+    /* <--- Conexiones ---> */
+
+    .connect {
+        @include desktop-flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+
+        .connect-text h1 {
+            @include h1-l;
+            color: $secondary;
+            padding-bottom: 2rem;
+            width: 100%;
+        }
+
+        .connect-text p {
+            @include p-l;
+            color: $secondary;
+            padding-bottom: 2rem;
+            width: 70%;
+        }
+    }
+
+    .connect-platforms {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        gap: 6rem;
+        padding-top: 6rem;
+    }
+
+    .connect-img img {
+        display: none;
+        width: 100%;
+        padding: 8rem;
+    }
+
+    /* <--- Contacto ---> */
+
+    .form {
+        @include desktop-flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+
+        .form-text {
+            text-align: center;
+            width: 100%;
+        }
+
+        .form-text h1 {
+            @include h1-m;
+            color: $secondary;
+            width: 100%;
+        }
+
+        .form-text img {
+            width: 30%;
+        }
+
+        .form-container {
+            width: 100%;
+            padding: 1rem;
+        }
+
+        legend {
+            @include h1-m;
+            color: $secondary;
+            padding: 0 1rem 4rem 1rem;
+        }
+
+        label {
+            font-size: 1rem;
+            font-weight: $black;
+            color: $secondary;
+            width: 100%;
+        }
+
+        input {
+            border-radius: 10px;
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 2rem;
+        }
+
+        select {
+            border-radius: 10px;
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 2rem;
+        }
+
+        textarea {
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        #tryBeta {
+            @include button-hover-sm;
+            font-weight: $black;
+            border-radius: 10px;
+        }
+    }
 }
 
 /* Medium sized devices (tablets, 960px and down) */
